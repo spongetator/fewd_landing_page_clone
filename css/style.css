@@ -79,7 +79,7 @@ display: inline-block;
     font-weight: 600;
 }
 .introduction {
-    background-image: url('../projects/startup-landing-page-clone/images/first-background.jpg');
+    background-image: url('../images/first-background.jpg');
     background-position: 0 bottom;
     background-height: 590px;
     background-repeat: no-repeat;
