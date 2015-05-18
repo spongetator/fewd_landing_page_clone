@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+    /* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.links{float:right;}
+li {
+display: inline-block;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+.introduction {
+    background-image: url('../projects/startup-landing-page-clone/images/first-background.jpg');
+    background-position: 0 bottom;
+    background-height: 590px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 
+    background-color:;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top:;
+}	margin-bottom:
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+<footer class="social">
+    <div class="content">
+        <ul class="icons">
+            <li>
+                <i class="fa fa-twitter"></i>
+            </li>
+            <li>
+                <i class="fa fa-facebook"></i>
+            </li>
+            <li>
+                <i class="fa fa-instagram"></i>
+            </li>
+        </ul>
+    </div>
+</footer>
+<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
