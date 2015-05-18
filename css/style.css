@@ -56,6 +56,11 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
     /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -65,7 +70,6 @@ div {
     height: 70px;
     margin: 0 auto;
     padding: 0px 15px;
-    position: fixed;
 	width: 100%;
 	z-index: 9999;
 }
@@ -107,20 +111,3 @@ display: inline-block;
     box-sizing: border-box;
     height: 4em;
 }
-<footer class="social">
-    <div class="content">
-        <ul class="icons">
-            <li>
-                <i class="fa fa-twitter"></i>
-            </li>
-            <li>
-                <i class="fa fa-facebook"></i>
-            </li>
-            <li>
-                <i class="fa fa-instagram"></i>
-            </li>
-        </ul>
-    </div>
-</footer>
-<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
-<link href="css/font-awesome.min.css" rel="stylesheet">
