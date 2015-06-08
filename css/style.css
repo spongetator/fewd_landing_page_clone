@@ -53,9 +53,7 @@ body {
 	letter-spacing: 0.03em;
     background-color: LightGray;
 }
-div {
-    border: 1px solid Chocolate;
-}
+
 @media only screen and (max-width: 500px) {
     .masthead {
         padding: 3em 0;
@@ -164,6 +162,7 @@ display: inline-block;
 	text-align: center;
 
 }
+
  * Responsive Design
  */
 @media (min-width: 48rem) {
